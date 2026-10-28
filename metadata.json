@@ -1,0 +1,8 @@
+{
+  "name": "RUIP Report: Mudhale Village, Baramati | MIT-WPU",
+  "description": "Interactive Rural Immersion Program (RUIP) Field Report for Mudhale Village, Baramati (Pune District), featuring detailed socio-economic household survey data, agricultural and water resource findings, and fieldwork photo documentation by MIT-WPU Computer Engineering & Technology.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
