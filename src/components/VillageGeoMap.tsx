@@ -30,7 +30,7 @@ const MAP_POINTS: MapPoint[] = [
     y: 38,
     icon: Landmark,
     description: 'Civic and administrative headquarters of Mudhale village, hosting the Sarpanch desk, Gram Sevak records, and India Post branch.',
-    photoUrl: VILLAGE_IMAGES.panchayatVisit,
+    photoUrl: `${import.meta.env.BASE_URL}assets/aistudio/IMG-20260813-WA0005.jpg_58a470a3.jpeg`,
     surveyConnection: 'Administrative coordination base for Ladki Bahin records, PDS ration quotas, and municipal water pipeline projects.',
   },
   {
