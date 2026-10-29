@@ -2,7 +2,6 @@ import React from 'react';
 import { motion } from 'motion/react';
 import { Home, ShieldCheck, HeartHandshake, Landmark, Flame, AlertTriangle, CheckCircle, Info } from 'lucide-react';
 import { VILLAGE_STAT_CARDS, RUIP_REPORT_HEADER } from '../data/mudhaleSurveyData';
-import { VILLAGE_IMAGES } from '../assets/images';
 
 export const OverviewSection: React.FC = () => {
   const getIcon = (iconName: string) => {
@@ -81,7 +80,7 @@ export const OverviewSection: React.FC = () => {
           {/* Someshwar Vidyalaya Campus Photo */}
           <div className="lg:col-span-7 h-[360px] sm:h-[440px] rounded-3xl overflow-hidden shadow-lg relative bg-[#1F2B1D]">
             <img
-              src={VILLAGE_IMAGES.schoolCampus}
+              src={`${import.meta.env.BASE_URL}assets/aistudio/IMG-20260812-WA0150.jpg_a55893b6.jpeg`}
               alt="Someshwar Vidyalaya Mudhale Campus and rural surroundings"
               className="w-full h-full object-cover object-center"
             />
