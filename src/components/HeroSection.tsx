@@ -24,7 +24,7 @@ export const HeroSection: React.FC = () => {
       {/* Background Hero Image with Dark Botanical Gradient Scrim */}
       <div className="absolute inset-0 z-0">
         <img
-          src={`${import.meta.env.BASE_URL}assets/aistudio/IMG-20260812-WA0150.jpg_a55893b6.jpeg`}
+          src={`${import.meta.env.BASE_URL}assets/aistudio/IMG-20260813-WA0235.jpg_71afe591.jpeg`}
           alt="MIT-WPU Rural Immersion Delegation at Someshwar Vidyalaya Mudhale"
           className="w-full h-full object-cover object-center scale-105 filter brightness-60 contrast-105"
         />
