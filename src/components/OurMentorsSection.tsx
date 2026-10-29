@@ -54,7 +54,7 @@ const MENTORS: MentorProfile[] = [
     designation: 'Associate Professor / Faculty Lead, Rural Immersion Program',
     department: 'Department of Computer Engineering and Technology',
     institution: 'MIT World Peace University (MIT-WPU), Pune',
-    imageSrc: '/assets/aistudio/WhatsApp_Image_2026-10-28_at_11.23.59_PM_0ec74b87.jpeg',
+    imageSrc: `${import.meta.env.BASE_URL}assets/aistudio/WhatsApp_Image_2026-10-28_at_11.23.59_PM_0ec74b87.jpeg`,
     gpsLocation: {
       label: 'Mudhale, Maharashtra, India',
       subLoc: 'Someshwar Vidyalaya Courtyard, SH 62, Mudhale, Baramati 413110',
@@ -97,7 +97,7 @@ const MENTORS: MentorProfile[] = [
     designation: 'Assistant Professor / Faculty Coordinator',
     department: 'Department of Computer Engineering and Technology',
     institution: 'MIT World Peace University (MIT-WPU), Pune',
-    imageSrc: '/assets/aistudio/image_adfc3347.png',
+    imageSrc: `${import.meta.env.BASE_URL}assets/aistudio/image_adfc3347.png`,
     gpsLocation: {
       label: 'Mudhale, Maharashtra, India',
       subLoc: 'Someshwar Vidyalaya (सोमेश्वर विद्यालय मुढाळे), Baramati 413110',
@@ -140,7 +140,7 @@ const MENTORS: MentorProfile[] = [
     designation: 'Assistant Professor / Project Coordinator',
     department: 'Department of Computer Engineering and Technology',
     institution: 'MIT World Peace University (MIT-WPU), Pune',
-    imageSrc: '/assets/aistudio/WhatsApp_Image_2026-10-28_at_11.23.12_PM_b9275e49.jpeg',
+    imageSrc: `${import.meta.env.BASE_URL}assets/aistudio/WhatsApp_Image_2026-10-28_at_11.23.12_PM_b9275e49.jpeg`,
     gpsLocation: {
       label: 'Mudhale, Maharashtra, India',
       subLoc: 'Someshwar Vidyalaya Courtyard, SH 62, Mudhale, Baramati 413110',
